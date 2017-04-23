@@ -33,7 +33,7 @@
     "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
     "modules/koapp-module-react-todolist/style.html"
   ],
-  "scope": {},
+  "scope": { "developer": true },
   "libs": [{
     "bower": {
       "axios": "^0.16.1"
