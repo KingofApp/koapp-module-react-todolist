@@ -129,5 +129,3 @@ var TodoApp = function (_React$Component) {
 
   return TodoApp;
 }(React.Component);
-
-render(React.createElement(TodoApp, null), document.getElementById('container'));
