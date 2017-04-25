@@ -12,7 +12,7 @@ const TodoForm = ({addTodo}) => {
   // Input Tracker
   let input;
   // Return JSX
-  return ( 
+  return (
     <form onSubmit={(e) => {
         e.preventDefault();
         addTodo(input.value);
@@ -102,5 +102,4 @@ class TodoApp extends React.Component{
       </div>
     );
   }
-}
-render(<TodoApp />, document.getElementById('container'));
+} 

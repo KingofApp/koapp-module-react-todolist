@@ -30,16 +30,23 @@
   "files": [
     "modules/koapp-module-react-todolist/controller.js",
     "modules/koapp-module-react-todolist/main.js",
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
     "modules/koapp-module-react-todolist/style.html"
   ],
   "scope": { "developer": true },
-  "libs": [{
-    "bower": {
-      "axios": "^0.16.1"
+  "libs": [
+    {
+      "bower": {
+        "axios": "^0.16.1"
+      },
+      "src": "bower_components/axios/dist/axios.min.js"
     },
-    "src": "bower_components/axios/dist/axios.min.js"
-  }],
+    {
+      "bower": {
+        "bootstrap": "^4.0.0-alpha.6"
+      },
+      "src": "bower_components/bootstrap/dist/css/bootstrap.min.css"
+    }
+  ],
   "config": [],
   "showOn": {
     "menu": true,
