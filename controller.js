@@ -9,11 +9,7 @@
 
   function loadFunction($scope, structureService, $location) {
     // Register upper level modules
-    structureService.registerModule($location, $scope, 'reacttodolist');
-    // --- Start reacttodolistController content ---
-    console.info('Hi! from reacttodolistController');
-    // --- End reacttodolistController content ---
-    structureService.registerModule($location, $scope, 'reacttodo');
+    structureService.registerModule($location, $scope, 'reacttodolist');    
     React.koapp = {
       'structureService' : structureService
     };
