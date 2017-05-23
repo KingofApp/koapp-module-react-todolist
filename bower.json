@@ -1,0 +1,15 @@
+{
+  "name": "koapp-module-react-todolist",
+  "authors": "",
+  "description": "",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bootstrap": "^4.0.0-alpha.6"    
+  }}

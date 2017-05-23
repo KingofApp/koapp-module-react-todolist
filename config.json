@@ -1,0 +1,69 @@
+{
+    "name": "React Todo List",
+    "identifier": "reacttodolist",
+    "description": {
+        "es-ES": "",
+        "en-US": ""
+    },
+    "documentation": {
+        "es-ES": "modules/koapp-module-react-todolist/docs/es_ES.md",
+        "en-US": "modules/koapp-module-react-todolist/docs/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "",
+        "en-US": ""
+    },
+    "icon": "list",
+    "type": "R",
+    "version": "0.0.2",
+    "author": "",
+    "category": [
+        "modules"
+    ],
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/koapp-module-react-todolist/index.html",
+    "files": [
+        "modules/koapp-module-react-todolist/controller.js",
+        "modules/koapp-module-react-todolist/main.js",
+        "modules/koapp-module-react-todolist/style.html"
+    ],
+    "scope": {
+        "developer": true
+    },
+    "libs": [
+        {
+            "bower": {
+                "axios": "^0.16.1"
+            },
+            "src": "bower_components/axios/dist/axios.min.js"
+        },
+        {
+            "bower": {
+                "bootstrap": "^4.0.0-alpha.6"
+            },
+            "src": "bower_components/bootstrap/dist/css/bootstrap.min.css"
+        }
+    ],
+    "config": [],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/koapp-module-react-todolist/images/list.png",
+        "screenshots": [
+            "modules/koapp-module-react-todolist/images/screenshot01.png"
+        ],
+        "popover": "modules/koapp-module-react-todolist/images/popover.png",
+        "banner": "modules/koapp-module-react-todolist/images/banner.png",
+        "logo": "modules/koapp-module-react-todolist/images/logo.png"
+    }
+}
